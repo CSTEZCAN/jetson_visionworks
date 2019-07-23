@@ -14,6 +14,10 @@ wget https://nvidia.box.com/shared/static/vbsywpw5iqy7r38j78xs0ctalg7jrg79.gz -O
 tar xvzf PlantCLEF_Subset.tar.gz
 #cd jetson-inference/python/training/imagenet
 #python train.py --model-dir=plants ~/datasets/PlantCLEF_Subset
-cd ~/datasets
+cd
+cd datasets
 wget https://nvidia.box.com/shared/static/o577zd8yp3lmxf5zhm38svrbrv45am3y.gz -O cat_dog.tar.gz
 tar xvzf cat_dog.tar.gz
+#cd jetson-inference/python/training/imagenet
+#python train.py --model-dir=cat_dog ~/datasets/cat_dog
+cd
